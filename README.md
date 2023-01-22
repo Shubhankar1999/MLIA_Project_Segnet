@@ -6,12 +6,16 @@ How to run =============
 ● We used a Rivanna instance with 4 NVIDIA A100 GPUs and 200 GB memory.
 ● Make sure all the python notebook code files are in the same folder
 ● In any one folder create the directory structure as follows
+
+
 ____ mlia __________ data_imgs_aug __________________ train
         |               |____________ test
         |               |____________ trainannot
         |               |____________ testannot
         |               |____________ testNoLabel 
         |_______ results
+        
+        
 createDirectories.ipynb may be used for this after changing the base path in each mkdir command line from /home/ufh6ft.
 ● If you do not wish to train the model (only test it), then place the provided pre-trained model file in the results folder and after that run the MLIA_test_only.ipynb.
 If you wish to train the model and then test it. Then skip this step and continue with the steps below.
