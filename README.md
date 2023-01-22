@@ -7,7 +7,7 @@ How to run
 
 ● Ensure that you are using a powerful machine with the required computational power.
 
-● We used a Rivanna instance with 4 NVIDIA A100 GPUs and 200 GB memory.
+● We used 4 NVIDIA A100 GPUs and 200 GB memory.
 
 ● Make sure all the python notebook code files are in the same folder.
 
